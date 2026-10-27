@@ -175,13 +175,12 @@
   <section id="residual" class="section"><span id="rollouts" class="anchor-alias"></span>
     <div class="section-heading"><h2>Residual adaptation</h2></div>
     <p class="section-copy">Two tasks, two π0.5 checkpoints. The base stays frozen; a residual trained in simulation corrects it.</p>
-    <div class="table-wrap"><table class="cell-table results-table"><caption>Frozen base vs. base + residual</caption><thead><tr><th scope="col">Task</th><th scope="col">Setting</th><th scope="col" class="num">Frozen base</th><th scope="col" class="num">With residual</th><th scope="col">Trials</th></tr></thead><tbody>
-      <tr><th scope="row"><a href="#task-plug">Plug insertion</a></th><td>Simulation</td><td class="num">7 / 20</td><td class="num">13 / 20</td><td>Same 20 seeds</td></tr>
-      <tr><th scope="row"><a href="#task-plug">Plug insertion</a></th><td><span class="cell-badge" data-variant="outline">Real robot</span></td><td class="num">6 / 20</td><td class="num">11 / 20</td><td>20 per arm</td></tr>
-      <tr><th scope="row"><a href="#task-pickup">Camera pickup</a></th><td>Simulation</td><td class="num">2 / 24</td><td class="num">14 / 24</td><td>24 unseen placements, picked and held</td></tr>
-      <tr><th scope="row"><a href="#task-pickup">Camera pickup</a></th><td><span class="cell-badge" data-variant="outline">Real robot</span></td><td class="num">2 / 20</td><td class="num">13 / 20</td><td>20 per arm</td></tr>
+    <div class="table-wrap"><table class="cell-table results-table"><caption>Frozen base vs. base + residual</caption><thead><tr><th scope="col">Task</th><th scope="col">Setting</th><th scope="col" class="num">Frozen base</th><th scope="col" class="num">With residual</th></tr></thead><tbody>
+      <tr><th scope="row"><a href="#task-plug">Plug insertion</a></th><td>Simulation</td><td class="num">7 / 20</td><td class="num">13 / 20</td></tr>
+      <tr><th scope="row"><a href="#task-plug">Plug insertion</a></th><td><span class="cell-badge" data-variant="outline">Real robot</span></td><td class="num">6 / 20</td><td class="num">11 / 20</td></tr>
+      <tr><th scope="row"><a href="#task-pickup">Camera pickup</a></th><td>Simulation</td><td class="num">2 / 24</td><td class="num">14 / 24</td></tr>
+      <tr><th scope="row"><a href="#task-pickup">Camera pickup</a></th><td><span class="cell-badge" data-variant="outline">Real robot</span></td><td class="num">2 / 20</td><td class="num">13 / 20</td></tr>
     </tbody></table></div>
-    <p class="qualifier">Simulation runs in MuJoCo. Tasks differ in checkpoint, scene and success criterion, so rows are not pooled.</p>
 
     <article id="task-plug" class="task-case">
       <div class="task-header"><h3>Plug insertion</h3><p>A residual adds a sideways shift of up to 20 mm to π0.5’s actions during insertion.</p></div>
