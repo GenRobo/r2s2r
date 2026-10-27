@@ -81,3 +81,4 @@ dl.symbols{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:6px 
 .objective-flow{justify-content:center}.objective math.eq{text-align:center}
 dl.symbols{width:fit-content;max-width:100%;margin-inline:auto}.objective .objective-key{text-align:center}
 .objective>p:last-child{text-align:center}
+footer{justify-content:flex-end}
