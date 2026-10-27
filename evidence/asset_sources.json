@@ -1,0 +1,405 @@
+{
+  "updated": "2026-10-26",
+  "assets": [
+    {
+      "file": "assets/camera_pick_scene.jpg",
+      "source": "pour_auto_eng/artifacts/grumi_pickup_90deg_20261004/reference.png",
+      "source_sha256": "e4314aed3dd33d9b75456fd9ef37a1352f2bb1e40f718072898d1d1755aeb611",
+      "sha256": "5eae01db14531585cffc371baf7c51063d375fa92540ba919eb63ce6e72d4c08",
+      "description": "Paused reconstructed bench overview, 2026-10-04; not real footage or a dynamics test."
+    },
+    {
+      "file": "assets/camera_pick_detail.jpg",
+      "source": "pour_auto_eng/artifacts/grumi_pickup_90deg_20261004/reconstruction.png",
+      "source_sha256": "34cf0124717bce30524d0a100cebb787d675dd5493af933c483ab3f61e73b00a",
+      "sha256": "303c4209d5219bb86634a7407cf3e3fb2cf502429f632fbd5508c9bdbc0d0d2d",
+      "description": "Paused render of the camera-shaped object and blue target bin."
+    },
+    {
+      "file": "assets/camera_pick_recovery.mp4",
+      "source": "pour_auto_eng/artifacts/bc_recovery_20261005/grasp_10000_comparison.mp4",
+      "source_sha256": "2e8a85e7df08993be9901cb41c300bdbe17673338339b69b0c62078482b20208",
+      "sha256": "2e8a85e7df08993be9901cb41c300bdbe17673338339b69b0c62078482b20208",
+      "description": "Saved grasp-state recovery, validation seed 10000: oracle replay above, learned BC residual below. Both succeed; this is not a full-reset trial."
+    },
+    {
+      "file": "assets/box_real.jpg",
+      "source": "pour_auto_eng/box_asset_review/04_real_IMG_5409.jpg",
+      "source_sha256": "1e7171d5bae2c22c4afe8fc0d9d72bd54853211fb028f6df2b2879307d609bc5",
+      "sha256": "1148846dc767716f52762d1756e3fb952bc0b1ac5937b9c2ff293ef01fdf44d1",
+      "description": "Unchanged real box reference photograph, resized for the website."
+    },
+    {
+      "file": "assets/box_corrected.jpg",
+      "source": "pour_auto_eng/box_asset_review/06_corrected_front.png",
+      "source_sha256": "aba5b5099a6cffdd83e227536a4080628c4e0469d74c62be6e45f73c500c0f48",
+      "sha256": "6e47f06f82ae85412ee5f933924f580df21b4ab6653e19cdc4ffb4fec5b22e16",
+      "description": "Corrected rigid-panel box geometry; robot and mount render meshes hidden."
+    },
+    {
+      "file": "assets/box_folded_fit.jpg",
+      "source": "pour_auto_eng/box_asset_review/10_corrected_folded_fit.png",
+      "source_sha256": "98dcce304110ab5c8d3072eff336326732a0ab2aaf0d9056894c06686e16044a",
+      "sha256": "967ce7ffe4f068d98c464357e9318b84e5bea860b2ad724f87d37d66537aa822",
+      "description": "Manually initialized folded fit check, 2026-10-22, not a policy rollout."
+    },
+    {
+      "file": "assets/box_real_demo.mp4",
+      "source": "pour_auto_eng/artifacts/box_close_sim/codex/real/0133_reference.mp4",
+      "source_sha256": "244df8a160305ceeb2fda5f8c543ef7f4a06adc8a9c37dd9ffa7856d1dd96987",
+      "sha256": "96fb9048830ff583215f2393275393e5430aaf5ca919ad32a49674e4b363178d",
+      "description": "Real demonstration 0133, left and right wrist views."
+    },
+    {
+      "file": "assets/box_oracle_demo.mp4",
+      "source": "pour_auto_eng/artifacts/box_close_sim/codex/oracle_seed0.mp4",
+      "source_sha256": "935f4aab3b10321309c0ba05f53a1d02b46cbc00a105399bf3aca8a3d457cfe0",
+      "sha256": "23dc34a8175c5b057fa160bc2ac4d314d630db3bdbacc56e6d58177a58ac0fb2",
+      "description": "Earlier successful scripted oracle box-closing demonstration, seed 0; predates the corrected geometry shown in stills."
+    },
+    {
+      "file": "assets/jar_real.png",
+      "source": "GRID/pipelines/grid-real2sim/Data/clear_jar/run1/s1_video/frames_subsampled_1/frame_0000.png",
+      "sha256": "dd30449feca15889f275326dce86f4401caba23b0e3b5ff90e48b4235cb0e669",
+      "description": "Real source photograph of the clear jar and metal lid."
+    },
+    {
+      "file": "assets/jar_sim.png",
+      "source": "GRID/pipelines/grid-real2sim/Data/clear_jar/run2/delivery_twist/myriad_open/reconstruction.png",
+      "sha256": "f9a03d6439a28e62c60a2eb4becafb9a5850fb43befccb9efcf4dad1eb742b8b",
+      "description": "Rendered reconstructed jar with lid removed; no robot."
+    },
+    {
+      "file": "assets/strip_insertion_probe.mp4",
+      "source": "tools/render_strip_probe.py",
+      "sha256": "b1de9941b2a5ac433e7ead4fd8c3d79ebd86fbb326cea654fd3b81adcffed49f",
+      "description": "New robot-free recording from the delivered hybrid MuJoCo strip scene: aligned insertion, hold, extraction. Not a robot policy rollout; existing numeric claims refer to the prior saved test report."
+    },
+    {
+      "file": "assets/camera_pick_scene.glb",
+      "source": "tools/export_pickup_scene.py",
+      "sha256": "75217ecd63b17edcb30e03eaf1fe3b08692a6a72f5044bb103ba4878ec2efae0",
+      "description": "Combined reconstructed bench, bin and camera-shaped object from the local box_close_eval_bundle; source prefab transforms preserved, robot models omitted."
+    },
+    {
+      "file": "assets/tabletop_real.jpg",
+      "source": "Desktop/real2sim-input-photo.jpg",
+      "sha256": "2c7f2f19374d9aa67a2b46656620d66f34ef23921273b8e274901619d8228799",
+      "description": "User-supplied real input photograph."
+    },
+    {
+      "file": "assets/tabletop_tour.mp4",
+      "source": "Desktop/real2sim-harness-camera_tour.mp4",
+      "sha256": "2e40f8edaa925a6a9bddc6fb544ff3ceb090381f3aeac32036d3e017c722bca4",
+      "description": "User-supplied camera tour of the reconstructed tabletop, not a manipulation test."
+    },
+    {
+      "file": "assets/tabletop_scene.glb",
+      "source": "Downloads/scene.glb",
+      "sha256": "ff8e092494f7f4347882c9aab2369f7d4fefe6fa0ce6eaf5c0783ae9b7b9827f",
+      "description": "Byte-identical to grid-real2sim/Data/video_img1392_final_20260930/tabletop/scene.glb; full reconstructed tabletop, loaded on request."
+    },
+    {
+      "file": "assets/pick_demo_strip.jpg",
+      "source": "claude.ai artifact NM94MaamPBRNEVoPX39jQa (teleop pi0.5 residual page)",
+      "sha256": "53458012acd19c721dc46a5c824b31b035ed75d9118942be960d0fdcf122ebd5",
+      "description": "Four real wrist-camera frames from one GRUMI teleop demonstration."
+    },
+    {
+      "file": "assets/pick_wrist_real.jpg",
+      "source": "claude.ai artifact NM94MaamPBRNEVoPX39jQa (teleop pi0.5 residual page)",
+      "sha256": "dde3c2de291e3cc032306c6f50c7a83743f8cb017d581edee09b165bfa230554",
+      "description": "Real wrist camera, demonstration start."
+    },
+    {
+      "file": "assets/pick_wrist_sim.jpg",
+      "source": "claude.ai artifact NM94MaamPBRNEVoPX39jQa (teleop pi0.5 residual page)",
+      "sha256": "78e6d83784ddfb036420bb4f2c8a8ba3fd7c4388c8a70756cf55df40ce775954",
+      "description": "Simulated wrist camera, episode start."
+    },
+    {
+      "file": "assets/pick_oracle_hover_90006.mp4",
+      "source": "claude.ai artifact NM94MaamPBRNEVoPX39jQa (teleop pi0.5 residual page)",
+      "sha256": "1a2c254a89ab1abf6d2803969e19765d9607e957b0216a95cfec69cff614a801",
+      "description": "Animated WebP re-encoded to H.264 at ~2.7 fps (near real time); oracle data episode 90006."
+    },
+    {
+      "file": "assets/pick_oracle_regrasp_90007.mp4",
+      "source": "claude.ai artifact NM94MaamPBRNEVoPX39jQa (teleop pi0.5 residual page)",
+      "sha256": "6918c4c4916a0782fe4e7d77f12aa090a7a16ba85d02b89e0503ac28d6f5aa13",
+      "description": "Animated WebP re-encoded to H.264 at ~3.5 fps (near real time); oracle data episode 90007."
+    },
+    {
+      "file": "assets/pick_far_60010.mp4",
+      "source": "claude.ai artifact NM94MaamPBRNEVoPX39jQa (teleop pi0.5 residual page)",
+      "sha256": "b8a7e0c92ddf647df04066f318a049fa2016756e9b5cd21c2265fa1b10d7f981",
+      "description": "Animated WebP re-encoded at 1 fps, one frame per simulated second; evaluation seed 60010, base vs residual. Playback sped up 3x (no frames dropped)."
+    },
+    {
+      "file": "assets/pick_near_60015.mp4",
+      "source": "claude.ai artifact NM94MaamPBRNEVoPX39jQa (teleop pi0.5 residual page)",
+      "sha256": "e592104d4e9af815c23ffe212d319c7962fff1fe50154299055e28651eee4a43",
+      "description": "Animated WebP re-encoded at 1 fps, one frame per simulated second; evaluation seed 60015, base vs residual. Playback sped up 3x (no frames dropped)."
+    },
+    {
+      "file": "assets/pick_bench_trials.mp4",
+      "source": "claude.ai artifact NM94MaamPBRNEVoPX39jQa (teleop pi0.5 residual page)",
+      "sha256": "882f5b23aca574dea284d6996cc5dcfb17aab13cf4d0e0d75b7cc95038bec154",
+      "description": "Unedited real-bench phone video, five trials with the residual head; no matched base trials."
+    },
+    {
+      "file": "assets/desk_real.jpg",
+      "source": "claude.ai artifact 1CtKRjYSLBjicyXe1UwCfS (IMG_5035 desk scene, grid-real2sim img5035_v2_noplate)",
+      "sha256": "f245ff60e4aa4acfe2ad8676a676436d5fc64d88ff780f00ce28b3d20b96198c",
+      "description": "Source RGB IMG_5035, 2000x1500, unchanged. Name plate text blurred for privacy."
+    },
+    {
+      "file": "assets/desk_scene.glb",
+      "source": "claude.ai artifact 1CtKRjYSLBjicyXe1UwCfS (IMG_5035 desk scene, grid-real2sim img5035_v2_noplate)",
+      "sha256": "5185da6a82587fe2b25e274149bb1fc2302a7f1f15091fe1ceeae61592ea1da8",
+      "description": "Visual GLBs of the five objects and support slab merged into one file at their settled scene.json poses (Z-up, metres)."
+    },
+    {
+      "file": "assets/desk_scene_poster.jpg",
+      "source": "rendered locally from assets/desk_scene.glb",
+      "sha256": "1b2fbbea5bcd462e33229ffeedeeaec7df33e132309d7e5b2d5d7ac7a1253115",
+      "description": "Viewer render used as the 3D poster."
+    },
+    {
+      "file": "assets/box_fold_held_pull_down.mp4",
+      "source": "Local recording box_fold_held_pull_down.mp4 (2026-10-26 16:02)",
+      "sha256": "fd000570c3fca03536018e8cc8b3c7e14b322076e65ed77e89734c5fc132e8fa",
+      "description": "Updated scripted held-down box-folding oracle render, overview + wrist views; replaces the earlier render."
+    },
+    {
+      "file": "assets/jar_opening_real.mp4",
+      "source": "Local recording jar_pickup_real_reference.mp4 (2026-10-26 16:02)",
+      "sha256": "09335e647c9a4bb8554b1bd1cbb21c9108e1655d96b52eaa439f2fb1e2670335",
+      "description": "Real bimanual jar opening, two wrist cameras, unchanged; different trial from the sim oracle."
+    },
+    {
+      "file": "assets/plug_real_teleop.mp4",
+      "source": "real_teleop_ep100_base_wrist.mp4 (2026-10-26 16:12)",
+      "sha256": "5e6dbc485c86b5f39e467e6bec01701d61b02794faebe443cce1acfce964d10a",
+      "description": "Real teleoperated plug insertion, episode 100, base + wrist views; trimmed to 0-8.7 s (seated at ~6.0 s, released ~6.5 s, retracted by ~8.5 s); re-encoded H.264, no other edits."
+    },
+    {
+      "file": "assets/camera_pick_real.mp4",
+      "source": "camera_pick_real_reference.mp4 (2026-10-26 16:13)",
+      "sha256": "d30e5760452ae9db965e3df8680ade6faccb19f1cbcc4d17e7a0b56ed858712f",
+      "description": "Real wrist-camera pick and place into the blue bin, 240x240, 9.8 s, unchanged. A human hand places the object at 0.9-2.7 s."
+    },
+    {
+      "file": "assets/base_ep0.mp4",
+      "sha256": "7d52a2344e117a03afe1fc238fc10e4d675f8824ae3952d87a41ebbe220153d4",
+      "description": "Sim plug insertion, frozen base, episode 0 (failure), 1 frame per simulated second. Rearranged to head view (x 770-1624) then wrist view (x 0-770); third-person overview removed 2026-10-26. Playback sped up 3x (no frames dropped)."
+    },
+    {
+      "file": "assets/corrected_ep0.mp4",
+      "sha256": "16027d014139f345c17a79c050a2d4048b7cb0614cacbb3548a88cd6c50bbc50",
+      "description": "Sim plug insertion, learned residual, episode 0 (geometric success), 1 frame per simulated second. Rearranged to head view (x 770-1624) then wrist view (x 0-770); third-person overview removed 2026-10-26. Playback sped up 3x (no frames dropped)."
+    },
+    {
+      "file": "assets/camera_pick_residual.mp4",
+      "source": "assets/camera_pick_recovery.mp4 (bottom row)",
+      "sha256": "1bc60bffe311df84b6aa8e06165c399b8775cd911e09e1c79e1566b4c1ea8740",
+      "description": "Learned BC residual row only (y 580-1120) of the seed-10000 grasp-recovery comparison: wrist view and third-person table overview. The oracle row is omitted. Playback sped up 2x (no frames dropped)."
+    },
+    {
+      "file": "assets/jar_opening_arms_oracle.mp4",
+      "source": "Local recording jar_opening_arms_oracle.mp4 (2026-10-26 16:48)",
+      "sha256": "a682848b905e04521a2ab9d26e34ded7e381c6e1a2af6aef7b1a6a951bb6aa79",
+      "description": "Scripted bimanual jar-opening oracle render, 49.5 s: hold jar, unscrew lid (~586 deg), lift lid off; overview + wrist views with lift/clearance/angle overlay. Replaces the 16:02 render."
+    },
+    {
+      "file": "assets/harness/bench_input.jpg",
+      "source": "GRID pipelines/grid-real2sim/docs/images/bench_bin_input.jpg @ origin/feature/real2sim-tool cc2ee80",
+      "source_sha256": "b9512af136ebf8e71721dd407fba9b80feaa3b1009b14f5560f13fd16d8ec29b",
+      "sha256": "b6914b8292ba4fa1a74056153fab6f4c8b8c1a87491c8865e72669a7da2de83f",
+      "description": "Resized for the harness page; no other edits."
+    },
+    {
+      "file": "assets/harness/bench_render.jpg",
+      "source": "GRID pipelines/grid-real2sim/docs/images/bench_bin_threejs.png @ origin/feature/real2sim-tool cc2ee80",
+      "source_sha256": "32525cb691cce70048549e7487f2d028f44893e03b8165c5320db193a38b54cf",
+      "sha256": "96281d14d42c0bfdf183b43110a4d7436a970e17ec6940ea96ed8e7a5e883caf",
+      "description": "Resized for the harness page; no other edits."
+    },
+    {
+      "file": "assets/harness/img1392_source.jpg",
+      "source": "grid-real2sim Data/video_img1392_final_20260930/selected_frame.png",
+      "source_sha256": "1b735d66783438d3ceedf442fee1580363f66405df98ead9fb842ec1a39b4995",
+      "sha256": "5979ebef36343a88fc7892a62ec098684092d999eccc037981a92c8a541012a2",
+      "description": "Resized for the harness page; no other edits."
+    },
+    {
+      "file": "assets/harness/img1392_render.jpg",
+      "source": "grid-real2sim Data/video_img1392_final_20260930/source_view_render.png",
+      "source_sha256": "b765863ced83b016aa577096e08bdf138ed29ba9b33f915bfd8c635917618186",
+      "sha256": "08aa0f0fe7b38c9e6f5a87dd0b3589885cc2376080ed58c5f7165528f3dbe284",
+      "description": "Resized for the harness page; no other edits."
+    },
+    {
+      "file": "assets/harness/biolab_source.jpg",
+      "source": "grid-real2sim Data/biolab_real_image_20260930/s1_video/frames_subsampled_1/frame_0000.png",
+      "source_sha256": "103e84e77fe50cd14fa1d23ac77e7335722b8bb43e0224193d2c1570e5679f4a",
+      "sha256": "944c61845c968a0b312262f31f229e172cc65c645215c0ffef741df83cede1bc",
+      "description": "Resized for the harness page; no other edits."
+    },
+    {
+      "file": "assets/harness/box_source.jpg",
+      "source": "grid-real2sim Data/inputs/box_shining3d.png",
+      "source_sha256": "66215d66a0398fc5c5a70829c286cc7d7a0471a55594a1aacccd4a31e5ff4f28",
+      "sha256": "e663207a4526dfc76025f5e5af91bddf52134fa2bdb0a97f9bd478eeebdd65aa",
+      "description": "Resized for the harness page; no other edits."
+    },
+    {
+      "file": "assets/harness/box_closed.png",
+      "source": "PyBullet tiny-renderer render of box_shining3d_20261006 .../zbjjco/urdf/zbjjco.urdf, all hinges 0 deg, flat cardboard colour",
+      "source_sha256": "09744f4181f6f7a3e6a2abaa258c7dd8ae84dd70825166e055e45605cb6d16e6",
+      "sha256": "10b6358b7eaeca4d96e28d292f488a5ea54064ac931879116b2c6c0ae6b47fbf",
+      "description": "Resized for the harness page; no other edits."
+    },
+    {
+      "file": "assets/harness/box_lid110.png",
+      "source": "Same URDF, lid_hinge 110 deg, other hinges 0 deg",
+      "source_sha256": "c86346aabc4eee20557663e31a5de2068d53eb7a283ea1a6289cfc0185e0b058",
+      "sha256": "823114d8afbd04019bbdb9780e8b760753f7f647a67842c7af78673a3586dc05",
+      "description": "Resized for the harness page; no other edits."
+    },
+    {
+      "file": "assets/harness/jar_open.jpg",
+      "source": "GRID pipelines/grid-real2sim/Data/clear_jar/run2/delivery_twist/myriad_open/oblique.png",
+      "source_sha256": "b2bcb03cc7bbb23a66fc1918eb614b72a35071720da61bbf0c87c474f4979a47",
+      "sha256": "78fbca17aaa0acae13863593ce55184c63346756a2e4f98253e270eb7475523f",
+      "description": "Resized for the harness page; no other edits."
+    },
+    {
+      "file": "assets/plug_real_nogate.mp4",
+      "source": "Phone recording IMG_9390.MOV (real-robot plug insertion, without gate)",
+      "source_sha256": "a400770ceef3b1c7b071a350eb7fef30dedd004bb5c7e00ce73f9601bcb3e4ae",
+      "sha256": "5d56f928df753fff4ff69019e43d1c1be4296923b37910d297a15b887be5d2c6",
+      "description": "Audio removed, scaled to 540x960, re-encoded H.264; real time, no trimming."
+    },
+    {
+      "file": "assets/plug_real_gate.mp4",
+      "source": "Phone recording IMG_9400.MOV (real-robot plug insertion, with gate)",
+      "source_sha256": "77a32a72f503e632111d260384ced4d80048cb64e9bf1703cbb8c4e6f19f6c95",
+      "sha256": "7fa526585ea0bf9387b92d1f61118a7266592798aaa3108481893b849b06cdcb",
+      "description": "Audio removed, scaled to 540x960, re-encoded H.264; real time, no trimming."
+    }
+  ],
+  "camera_pick_recovery": {
+    "source": "pour_auto_eng/artifacts/bc_recovery_20261005/behavior_summary.json",
+    "results": [
+      {
+        "stage": "placement",
+        "seed": 0,
+        "split": "train",
+        "mode": "oracle_replay",
+        "success": true,
+        "physics_valid": true,
+        "reason": "success",
+        "start_tick": 267,
+        "steps": 32
+      },
+      {
+        "stage": "placement",
+        "seed": 0,
+        "split": "train",
+        "mode": "bc",
+        "success": false,
+        "physics_valid": true,
+        "reason": "timeout",
+        "start_tick": 267,
+        "steps": 133
+      },
+      {
+        "stage": "placement",
+        "seed": 10000,
+        "split": "validation",
+        "mode": "oracle_replay",
+        "success": true,
+        "physics_valid": true,
+        "reason": "success",
+        "start_tick": 270,
+        "steps": 32
+      },
+      {
+        "stage": "placement",
+        "seed": 10000,
+        "split": "validation",
+        "mode": "bc",
+        "success": false,
+        "physics_valid": true,
+        "reason": "timeout",
+        "start_tick": 270,
+        "steps": 130
+      },
+      {
+        "stage": "grasp",
+        "seed": 0,
+        "split": "train",
+        "mode": "oracle_replay",
+        "success": true,
+        "physics_valid": true,
+        "reason": "success",
+        "start_tick": 135,
+        "steps": 164
+      },
+      {
+        "stage": "grasp",
+        "seed": 0,
+        "split": "train",
+        "mode": "bc",
+        "success": false,
+        "physics_valid": false,
+        "reason": "physics_fault",
+        "start_tick": 135,
+        "steps": 67
+      },
+      {
+        "stage": "grasp",
+        "seed": 10000,
+        "split": "validation",
+        "mode": "oracle_replay",
+        "success": true,
+        "physics_valid": true,
+        "reason": "success",
+        "start_tick": 137,
+        "steps": 165
+      },
+      {
+        "stage": "grasp",
+        "seed": 10000,
+        "split": "validation",
+        "mode": "bc",
+        "success": true,
+        "physics_valid": true,
+        "reason": "success",
+        "start_tick": 137,
+        "steps": 232
+      }
+    ]
+  },
+  "box_geometry": {
+    "source": "pour_auto_eng/box_asset_review/README_corrected.txt",
+    "side_flap_length_mm_approx": 120,
+    "passive_hold_seconds": 8,
+    "front_gap_mm": 0.046,
+    "model": "rigid panels",
+    "folded_fit": "manually initialized"
+  },
+  "box_policy_evaluation": {
+    "source": "pour_auto_eng/box_asset_review/13_corrected_box_eval.txt",
+    "folded": 0,
+    "starts": 12,
+    "physics_faults": 10,
+    "timeouts": 2
+  },
+  "notes": [
+    "These task examples are separate from the plug-insertion results in results.json.",
+    "The box oracle video uses an earlier asset revision; corrected stills are not frames from that rollout.",
+    "Camera-pick saved-state recovery does not establish full-task success from home."
+  ]
+}

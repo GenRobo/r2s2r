@@ -1,0 +1,950 @@
+{
+  "version": "2026-10-26-draft",
+  "visual_probe": {
+    "checkpoint": "18999",
+    "n_per_condition": 10,
+    "real_real": 10,
+    "sim_sim_range": [
+      0,
+      2
+    ],
+    "real_head_sim_wrist": 10,
+    "sim_head_real_wrist": 10,
+    "texture_overlay": 7,
+    "texture_rollout_successes": 0,
+    "texture_rollouts": 3,
+    "source_type": "dated development runbook; not independently rerun"
+  },
+  "rollouts": [
+    {
+      "run_id": "base_gripjoint_12",
+      "label": "Frozen base",
+      "checkpoint": "14999",
+      "n": 12,
+      "successes": 1,
+      "episodes": [
+        {
+          "episode": 0,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0492,
+              0.0886,
+              0.77
+            ],
+            "yaw_deg": -4.6
+          }
+        },
+        {
+          "episode": 1,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0529,
+              0.0919,
+              0.77
+            ],
+            "yaw_deg": 4.1
+          }
+        },
+        {
+          "episode": 2,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0494,
+              0.0914,
+              0.77
+            ],
+            "yaw_deg": 0.4
+          }
+        },
+        {
+          "episode": 3,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0474,
+              0.0919,
+              0.77
+            ],
+            "yaw_deg": -5.0
+          }
+        },
+        {
+          "episode": 4,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0479,
+              0.0872,
+              0.77
+            ],
+            "yaw_deg": 2.3
+          }
+        },
+        {
+          "episode": 5,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0519,
+              0.0922,
+              0.77
+            ],
+            "yaw_deg": 0.4
+          }
+        },
+        {
+          "episode": 6,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0512,
+              0.0895,
+              0.77
+            ],
+            "yaw_deg": -4.7
+          }
+        },
+        {
+          "episode": 7,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0523,
+              0.091,
+              0.77
+            ],
+            "yaw_deg": 1.5
+          }
+        },
+        {
+          "episode": 8,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0493,
+              0.0893,
+              0.77
+            ],
+            "yaw_deg": 5.0
+          }
+        },
+        {
+          "episode": 9,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0471,
+              0.0911,
+              0.77
+            ],
+            "yaw_deg": 1.5
+          }
+        },
+        {
+          "episode": 10,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0489,
+              0.0893,
+              0.77
+            ],
+            "yaw_deg": -3.6
+          }
+        },
+        {
+          "episode": 11,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0487,
+              0.0902,
+              0.77
+            ],
+            "yaw_deg": -1.9
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "insert_corrector_combo_20",
+      "label": "Learned residual",
+      "checkpoint": "14999",
+      "n": 20,
+      "successes": 4,
+      "episodes": [
+        {
+          "episode": 0,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0492,
+              0.0886,
+              0.77
+            ],
+            "yaw_deg": -4.6
+          }
+        },
+        {
+          "episode": 1,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0529,
+              0.0919,
+              0.77
+            ],
+            "yaw_deg": 4.1
+          }
+        },
+        {
+          "episode": 2,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0494,
+              0.0914,
+              0.77
+            ],
+            "yaw_deg": 0.4
+          }
+        },
+        {
+          "episode": 3,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0474,
+              0.0919,
+              0.77
+            ],
+            "yaw_deg": -5.0
+          }
+        },
+        {
+          "episode": 4,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0479,
+              0.0872,
+              0.77
+            ],
+            "yaw_deg": 2.3
+          }
+        },
+        {
+          "episode": 5,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0519,
+              0.0922,
+              0.77
+            ],
+            "yaw_deg": 0.4
+          }
+        },
+        {
+          "episode": 6,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0512,
+              0.0895,
+              0.77
+            ],
+            "yaw_deg": -4.7
+          }
+        },
+        {
+          "episode": 7,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0523,
+              0.091,
+              0.77
+            ],
+            "yaw_deg": 1.5
+          }
+        },
+        {
+          "episode": 8,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0493,
+              0.0893,
+              0.77
+            ],
+            "yaw_deg": 5.0
+          }
+        },
+        {
+          "episode": 9,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0471,
+              0.0911,
+              0.77
+            ],
+            "yaw_deg": 1.5
+          }
+        },
+        {
+          "episode": 10,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0489,
+              0.0893,
+              0.77
+            ],
+            "yaw_deg": -3.6
+          }
+        },
+        {
+          "episode": 11,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0487,
+              0.0902,
+              0.77
+            ],
+            "yaw_deg": -1.9
+          }
+        },
+        {
+          "episode": 12,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0501,
+              0.0923,
+              0.77
+            ],
+            "yaw_deg": 4.3
+          }
+        },
+        {
+          "episode": 13,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0509,
+              0.0904,
+              0.77
+            ],
+            "yaw_deg": -1.8
+          }
+        },
+        {
+          "episode": 14,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0494,
+              0.089,
+              0.77
+            ],
+            "yaw_deg": -1.1
+          }
+        },
+        {
+          "episode": 15,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0477,
+              0.0884,
+              0.77
+            ],
+            "yaw_deg": 1.2
+          }
+        },
+        {
+          "episode": 16,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0525,
+              0.092,
+              0.77
+            ],
+            "yaw_deg": 2.9
+          }
+        },
+        {
+          "episode": 17,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0516,
+              0.0923,
+              0.77
+            ],
+            "yaw_deg": -4.4
+          }
+        },
+        {
+          "episode": 18,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.051,
+              0.0879,
+              0.77
+            ],
+            "yaw_deg": -0.5
+          }
+        },
+        {
+          "episode": 19,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0482,
+              0.0884,
+              0.77
+            ],
+            "yaw_deg": -4.5
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "insert_oracle_gripjoint_20",
+      "label": "Privileged oracle",
+      "checkpoint": "14999",
+      "n": 20,
+      "successes": 10,
+      "episodes": [
+        {
+          "episode": 0,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0492,
+              0.0886,
+              0.77
+            ],
+            "yaw_deg": -4.6
+          }
+        },
+        {
+          "episode": 1,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0497,
+              0.0926,
+              0.77
+            ],
+            "yaw_deg": 3.2
+          }
+        },
+        {
+          "episode": 2,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0478,
+              0.0902,
+              0.77
+            ],
+            "yaw_deg": -2.0
+          }
+        },
+        {
+          "episode": 3,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0505,
+              0.0872,
+              0.77
+            ],
+            "yaw_deg": -3.8
+          }
+        },
+        {
+          "episode": 4,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0489,
+              0.0909,
+              0.77
+            ],
+            "yaw_deg": 1.9
+          }
+        },
+        {
+          "episode": 5,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0501,
+              0.0923,
+              0.77
+            ],
+            "yaw_deg": 4.3
+          }
+        },
+        {
+          "episode": 6,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0509,
+              0.0904,
+              0.77
+            ],
+            "yaw_deg": -1.8
+          }
+        },
+        {
+          "episode": 7,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0516,
+              0.0907,
+              0.77
+            ],
+            "yaw_deg": -4.2
+          }
+        },
+        {
+          "episode": 8,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.048,
+              0.0917,
+              0.77
+            ],
+            "yaw_deg": -2.6
+          }
+        },
+        {
+          "episode": 9,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0482,
+              0.0884,
+              0.77
+            ],
+            "yaw_deg": -4.5
+          }
+        },
+        {
+          "episode": 10,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0512,
+              0.091,
+              0.77
+            ],
+            "yaw_deg": -3.0
+          }
+        },
+        {
+          "episode": 11,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0474,
+              0.0896,
+              0.77
+            ],
+            "yaw_deg": 4.5
+          }
+        },
+        {
+          "episode": 12,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.05,
+              0.0896,
+              0.77
+            ],
+            "yaw_deg": 1.2
+          }
+        },
+        {
+          "episode": 13,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.047,
+              0.0927,
+              0.77
+            ],
+            "yaw_deg": -0.4
+          }
+        },
+        {
+          "episode": 14,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0485,
+              0.09,
+              0.77
+            ],
+            "yaw_deg": 0.3
+          }
+        },
+        {
+          "episode": 15,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0483,
+              0.0895,
+              0.77
+            ],
+            "yaw_deg": 2.3
+          }
+        },
+        {
+          "episode": 16,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0487,
+              0.0926,
+              0.77
+            ],
+            "yaw_deg": -3.9
+          }
+        },
+        {
+          "episode": 17,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0471,
+              0.0927,
+              0.77
+            ],
+            "yaw_deg": -3.5
+          }
+        },
+        {
+          "episode": 18,
+          "success": false,
+          "plug_start": {
+            "pos": [
+              -0.0472,
+              0.0923,
+              0.77
+            ],
+            "yaw_deg": 3.2
+          }
+        },
+        {
+          "episode": 19,
+          "success": true,
+          "plug_start": {
+            "pos": [
+              -0.0516,
+              0.0918,
+              0.77
+            ],
+            "yaw_deg": 4.2
+          }
+        }
+      ]
+    }
+  ],
+  "camera_pick_residual": {
+    "base_checkpoint": "pi0.5 camera_pick step 30000 (frozen)",
+    "residual": "MLP on frozen backbone features (4096) + pi0.5 action; no object position; correction <= 6 cm, <= 14 deg, 10 Hz",
+    "simulator": "MuJoCo; pi0.5 synchronous, real-time chunking off",
+    "n": 24,
+    "base_held": 2,
+    "residual_held": 14,
+    "base_lifted_any": 2,
+    "residual_lifted_any": 19,
+    "outcome_key": {
+      "held": "picked and held",
+      "lifted": "lifted, not held",
+      "miss": "not lifted"
+    },
+    "placements": [
+      {
+        "seed": 60000,
+        "forward_mm": 40,
+        "sideways_mm": 18,
+        "base": "miss",
+        "residual": "held"
+      },
+      {
+        "seed": 60001,
+        "forward_mm": -11,
+        "sideways_mm": -32,
+        "base": "miss",
+        "residual": "lifted"
+      },
+      {
+        "seed": 60002,
+        "forward_mm": 45,
+        "sideways_mm": 18,
+        "base": "held",
+        "residual": "held"
+      },
+      {
+        "seed": 60003,
+        "forward_mm": 38,
+        "sideways_mm": -2,
+        "base": "miss",
+        "residual": "miss"
+      },
+      {
+        "seed": 60004,
+        "forward_mm": 76,
+        "sideways_mm": 8,
+        "base": "miss",
+        "residual": "held"
+      },
+      {
+        "seed": 60005,
+        "forward_mm": -16,
+        "sideways_mm": -1,
+        "base": "miss",
+        "residual": "lifted"
+      },
+      {
+        "seed": 60006,
+        "forward_mm": 50,
+        "sideways_mm": 37,
+        "base": "miss",
+        "residual": "held"
+      },
+      {
+        "seed": 60007,
+        "forward_mm": 44,
+        "sideways_mm": 5,
+        "base": "miss",
+        "residual": "held"
+      },
+      {
+        "seed": 60008,
+        "forward_mm": 45,
+        "sideways_mm": 31,
+        "base": "miss",
+        "residual": "miss"
+      },
+      {
+        "seed": 60009,
+        "forward_mm": -11,
+        "sideways_mm": 49,
+        "base": "miss",
+        "residual": "held"
+      },
+      {
+        "seed": 60010,
+        "forward_mm": 86,
+        "sideways_mm": 49,
+        "base": "miss",
+        "residual": "held"
+      },
+      {
+        "seed": 60011,
+        "forward_mm": 87,
+        "sideways_mm": 6,
+        "base": "miss",
+        "residual": "held"
+      },
+      {
+        "seed": 60012,
+        "forward_mm": 41,
+        "sideways_mm": -11,
+        "base": "miss",
+        "residual": "held"
+      },
+      {
+        "seed": 60013,
+        "forward_mm": 37,
+        "sideways_mm": -26,
+        "base": "miss",
+        "residual": "lifted"
+      },
+      {
+        "seed": 60014,
+        "forward_mm": 33,
+        "sideways_mm": 48,
+        "base": "held",
+        "residual": "held"
+      },
+      {
+        "seed": 60015,
+        "forward_mm": -15,
+        "sideways_mm": -26,
+        "base": "miss",
+        "residual": "held"
+      },
+      {
+        "seed": 60016,
+        "forward_mm": -9,
+        "sideways_mm": -36,
+        "base": "miss",
+        "residual": "miss"
+      },
+      {
+        "seed": 60017,
+        "forward_mm": -20,
+        "sideways_mm": 29,
+        "base": "miss",
+        "residual": "lifted"
+      },
+      {
+        "seed": 60018,
+        "forward_mm": 66,
+        "sideways_mm": 39,
+        "base": "miss",
+        "residual": "miss"
+      },
+      {
+        "seed": 60019,
+        "forward_mm": -5,
+        "sideways_mm": 14,
+        "base": "miss",
+        "residual": "held"
+      },
+      {
+        "seed": 60020,
+        "forward_mm": 84,
+        "sideways_mm": -21,
+        "base": "miss",
+        "residual": "lifted"
+      },
+      {
+        "seed": 60021,
+        "forward_mm": 85,
+        "sideways_mm": 11,
+        "base": "miss",
+        "residual": "miss"
+      },
+      {
+        "seed": 60022,
+        "forward_mm": 67,
+        "sideways_mm": -4,
+        "base": "miss",
+        "residual": "held"
+      },
+      {
+        "seed": 60023,
+        "forward_mm": 50,
+        "sideways_mm": -34,
+        "base": "miss",
+        "residual": "held"
+      }
+    ],
+    "hardware_demo": {
+      "trials": 5,
+      "placed": 3,
+      "picked_not_placed": 2,
+      "matched_base_trials": 0,
+      "note": "demonstration only; no matched base-policy trials"
+    },
+    "source_type": "project results page by the author (claude.ai artifact NM94MaamPBRNEVoPX39jQa); not independently rerun"
+  },
+  "plug_real_robot": {
+    "setting": "real robot",
+    "residual": "gated corrector",
+    "n_per_arm": 20,
+    "base_successes": 6,
+    "residual_successes": 11,
+    "fisher_exact_two_sided_p": 0.2,
+    "wilson95": {
+      "base": [
+        0.15,
+        0.52
+      ],
+      "residual": [
+        0.34,
+        0.74
+      ]
+    },
+    "source_type": "reported by the author, 2026-10-26; trial log not archived with this site",
+    "note": "the three-arm sim page states the head was untested on real images at the time of that write-up; real-robot counts are reported separately by the author"
+  },
+  "plug_sim_three_arm_20261026": {
+    "checkpoint": "pi0.5 14999 (frozen)",
+    "seeds": "0-19, identical for every arm",
+    "client": "224x224 padded images, no RTC, 10 Hz, 10 steps per replan, 90 s",
+    "arms": {
+      "baseline": {
+        "run": "server_baseline_224_20",
+        "inserted_any": 7,
+        "inserted_at_90s": 5,
+        "strict_6mm": 4,
+        "inserted_episodes": [
+          2,
+          3,
+          5,
+          8,
+          9,
+          15,
+          16
+        ]
+      },
+      "gated": {
+        "run": "server_corrector_224_20",
+        "checkpoint": "plug_corrector_insert_combo.pt",
+        "inserted_any": 13,
+        "inserted_at_90s": 9,
+        "strict_6mm": 5,
+        "inserted_episodes": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19
+        ]
+      },
+      "gateless": {
+        "run": "server_gateless_224_20",
+        "checkpoint": "plug_corrector_insert_gateless.pt",
+        "inserted_any": 11,
+        "inserted_at_90s": 9,
+        "strict_6mm": 6,
+        "inserted_episodes": [
+          0,
+          1,
+          3,
+          4,
+          6,
+          8,
+          9,
+          10,
+          11,
+          15,
+          17
+        ]
+      }
+    },
+    "n": 20,
+    "source_type": "strict counts verified against eval_runs summaries; inserted_any and at_90s from the author's three-arm results page (claude.ai artifact Ui4DHcDPt5xe7GKYJjgbmo)"
+  }
+}

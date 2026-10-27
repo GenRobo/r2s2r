@@ -1,0 +1,4 @@
+Cell 0.1.0, copied unchanged from GenRobo/GRID
+Branch: feature/grid-design-system
+Commit: 4c5385f66a6922c866d1bc1717ef23c5a3097ec2
+Paths: libs/cell/dist/cell.css, cell.components.css, icons.svg
