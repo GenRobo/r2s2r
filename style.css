@@ -79,3 +79,5 @@ dl.symbols{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:6px 
 @media(max-width:700px){.objective-flow{flex-direction:column;align-items:stretch}.objective-arrow{align-self:center;transform:rotate(90deg)}.objective math.eq{font-size:1.1em}}
 @media(max-width:700px){.objective math.eq{font-size:.95em}}
 .objective-flow{justify-content:center}.objective math.eq{text-align:center}
+dl.symbols{width:fit-content;max-width:100%;margin-inline:auto}.objective .objective-key{text-align:center}
+.objective>p:last-child{text-align:center}
