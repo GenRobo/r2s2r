@@ -332,6 +332,60 @@
       "source_sha256": "7fa526585ea0bf9387b92d1f61118a7266592798aaa3108481893b849b06cdcb",
       "sha256": "34a46204e430ba38d86870f4a6b0304a4c30d9e258277fa198bc403cf809d8de",
       "description": "From 16 s to end, cropped to the gripper and strip (380x272 at x=140, y=585), played at 2x."
+    },
+    {
+      "file": "assets/align/real.jpg",
+      "source": "Policy-Guided Sim Alignment artifact, tile \"Real robot (ZED head)\"",
+      "sha256": "889f2c6299be14ce771cc5bee3172c5e981b286bafb07c9bfc7fe76cd62f974b",
+      "description": "Head-camera frame as the policy received it; extracted unchanged."
+    },
+    {
+      "file": "assets/align/initial_fit.jpg",
+      "source": "Policy-Guided Sim Alignment artifact, tile \"Initial fit, pitch \u224850\u00b0\"",
+      "sha256": "115bf4b808cf1c06d6b4ed4a2216051996014f474e8915fb6cd9185add59e73c",
+      "description": "Head-camera frame as the policy received it; extracted unchanged."
+    },
+    {
+      "file": "assets/align/head_refit.jpg",
+      "source": "Policy-Guided Sim Alignment artifact, tile \"Head refit to 36.7\u00b0, raw colour\"",
+      "sha256": "4a03b1d6177f7d3e8c030e133ea6a1b92c1fafa71193fe141cfa08a3db9ddfa4",
+      "description": "Head-camera frame as the policy received it; extracted unchanged."
+    },
+    {
+      "file": "assets/align/colour_affine.jpg",
+      "source": "Policy-Guided Sim Alignment artifact, tile \"+ per-channel colour affine on head\"",
+      "sha256": "932fe4ddbd90bf3f5ee79cb9cc56a2b2d49cc379419ee717a585e4747c6e2cae",
+      "description": "Head-camera frame as the policy received it; extracted unchanged."
+    },
+    {
+      "file": "assets/align/shadows_off.jpg",
+      "source": "Policy-Guided Sim Alignment artifact, tile \"+ hard shadows off\"",
+      "sha256": "f1886e6c11e1ff0d619dff7220978e8dbd9188c306bf8e09baa40a3d790c01d2",
+      "description": "Head-camera frame as the policy received it; extracted unchanged."
+    },
+    {
+      "file": "assets/align/dark_room.jpg",
+      "source": "Policy-Guided Sim Alignment artifact, tile \"Dark room instead of grey studio\"",
+      "sha256": "a1fcd98488e7b7303f38699ebf0212ba3cb86bc1ae5b0cc2ae36f4772ebd4ee9",
+      "description": "Head-camera frame as the policy received it; extracted unchanged."
+    },
+    {
+      "file": "assets/align/table_crop.jpg",
+      "source": "Policy-Guided Sim Alignment artifact, tile \"Head cropped to the real table footprint\"",
+      "sha256": "bbf160b63fd4996e4b219d666db20fa0bc0906b44bd54c341a5e46e670a03533",
+      "description": "Head-camera frame as the policy received it; extracted unchanged."
+    },
+    {
+      "file": "assets/align/board_under.jpg",
+      "source": "Policy-Guided Sim Alignment artifact, tile \"Board extended under the robot\"",
+      "sha256": "c20dcf048927eed19a39a09e3d2f00e54900a299b3a9cd03cd3bebb34496f49f",
+      "description": "Head-camera frame as the policy received it; extracted unchanged."
+    },
+    {
+      "file": "assets/align/mount_plate.jpg",
+      "source": "Policy-Guided Sim Alignment artifact, tile \"Robot mounting plate\"",
+      "sha256": "a7d717c8eff02352c3e42620d8db421f0c59a3532ed4879b7bbf9ad02c936f4e",
+      "description": "Head-camera frame as the policy received it; extracted unchanged."
     }
   ],
   "camera_pick_recovery": {
