@@ -57,3 +57,12 @@ code{font:400 13px/1.5 var(--mono);color:var(--text-hi)}.page-title{font-size:32
 .arch-figure figcaption{padding:16px 24px;border-top:1px solid var(--line)}.arch-figure figcaption span{font:500 11px var(--mono);margin-right:12px}
 @media(prefers-reduced-motion:reduce){.arch-spot{transition:none}}
 @media(max-width:700px){.arch-figure figcaption{padding:12px 16px}}
+.arch-figure{width:min(1600px,calc(100vw - 48px));position:relative;left:50%;transform:translateX(-50%)}
+.arch-zoom{position:absolute;display:flex;align-items:flex-end;justify-content:flex-end;padding:6px;border:0;border-radius:var(--r-md);background:transparent;color:var(--text-hi);cursor:zoom-in;z-index:1}.arch-zoom .cell-icon{width:20px;height:20px;padding:3px;border-radius:var(--r-sm);background:var(--ground);opacity:0;transition:opacity .15s}.arch-zoom:hover .cell-icon,.arch-zoom:focus-visible .cell-icon{opacity:1}.arch-zoom:focus-visible{outline:2px solid var(--info);outline-offset:2px}
+.arch-lightbox{width:min(1200px,calc(100vw - 32px));max-height:calc(100vh - 32px);padding:0;border:1px solid var(--line-strong);border-radius:var(--r-lg);background:var(--surface);color:var(--text-hi)}.arch-lightbox::backdrop{background:color-mix(in srgb,var(--ground) 85%,transparent)}.arch-lightbox-body{display:grid;gap:16px;padding:24px}.arch-lightbox-body .media-label{margin:0}.arch-lightbox-media video,.arch-lightbox-media img{display:block;width:100%;max-height:calc(100vh - 200px);object-fit:contain;background:var(--ground);border-radius:var(--r-md)}.arch-lightbox [data-close]{justify-self:end}
+@media(hover:none){.arch-zoom .cell-icon{opacity:1}}
+@media(max-width:700px){.arch-figure{width:100%;left:0;transform:none}.arch-lightbox-body{padding:16px}}
+.search-table td:nth-child(2){font:inherit;white-space:normal}.search-table th[scope=row]{white-space:nowrap}.search-table td{max-width:420px}
+.pick-bench{grid-template-columns:minmax(0,460px) minmax(0,1fr)}.pick-bench video{max-height:820px}
+.gate-pair{max-width:1000px}.gate-pair video{max-height:860px}
+@media(max-width:700px){.pick-bench{grid-template-columns:1fr}.pick-bench video{max-width:100%}}

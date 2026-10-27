@@ -330,8 +330,8 @@
       "file": "assets/arch/deploy.mp4",
       "source": "assets/plug_real_gate.mp4",
       "source_sha256": "7fa526585ea0bf9387b92d1f61118a7266592798aaa3108481893b849b06cdcb",
-      "sha256": "0861a2f8ec9ea7b70220fcf8012032854d81525191e2a4f4110725e8aa40c126",
-      "description": "From 16 s to end, cropped to the gripper and strip (540x388 at y=430), played at 2x."
+      "sha256": "34a46204e430ba38d86870f4a6b0304a4c30d9e258277fa198bc403cf809d8de",
+      "description": "From 16 s to end, cropped to the gripper and strip (380x272 at x=140, y=585), played at 2x."
     }
   ],
   "camera_pick_recovery": {
