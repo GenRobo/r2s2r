@@ -51,3 +51,9 @@ code{font:400 13px/1.5 var(--mono);color:var(--text-hi)}.page-title{font-size:32
 .subtitle{font-size:18px;color:var(--text)}.authors{margin-top:16px;color:var(--text)}.intro .actions{margin-bottom:0}
 @media(max-width:700px){.subtitle{font-size:16px}}
 .authors{max-width:none}
+.arch-figure{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden}.arch-scroll{overflow-x:auto}.arch-stage{position:relative;min-width:760px}.arch-svg{display:block;width:100%;height:auto}.arch-svg #real-head-camera-pending{display:none}
+.arch-clip{position:absolute;object-fit:cover;border:0;background:var(--raised);pointer-events:none}
+.arch-spot{position:absolute;border-radius:var(--r-md);outline:1px solid transparent;transition:outline-color .15s,background-color .15s}.arch-spot:hover,.arch-spot:focus-visible{outline:2px solid var(--info);outline-offset:2px;background:color-mix(in srgb,var(--info) 6%,transparent)}
+.arch-figure figcaption{padding:16px 24px;border-top:1px solid var(--line)}.arch-figure figcaption span{font:500 11px var(--mono);margin-right:12px}
+@media(prefers-reduced-motion:reduce){.arch-spot{transition:none}}
+@media(max-width:700px){.arch-figure figcaption{padding:12px 16px}}

@@ -287,6 +287,51 @@
       "source_sha256": "77a32a72f503e632111d260384ced4d80048cb64e9bf1703cbb8c4e6f19f6c95",
       "sha256": "7fa526585ea0bf9387b92d1f61118a7266592798aaa3108481893b849b06cdcb",
       "description": "Audio removed, scaled to 540x960, re-encoded H.264; real time, no trimming."
+    },
+    {
+      "file": "assets/arch/single_image.png",
+      "source": "Embedded image in r2s2r_architecture.html (architecture figure)",
+      "sha256": "485879a3b7c3616e8b47a222db151d15810ff07a57093df450b4fb209fb00233",
+      "description": "Extracted unchanged from the figure's inline data."
+    },
+    {
+      "file": "assets/arch/reconstruct.png",
+      "source": "Embedded image in r2s2r_architecture.html (architecture figure)",
+      "sha256": "c58b85d27a5eda0fa8f721ca578305cbfe6340aec0e22f92a24328483a83b4e9",
+      "description": "Extracted unchanged from the figure's inline data."
+    },
+    {
+      "file": "assets/arch/complete.png",
+      "source": "Embedded image in r2s2r_architecture.html (architecture figure)",
+      "sha256": "6b428d029407d95ca96d7bd9f491692fdcf09320fa0dc1c0951e5c25806b4925",
+      "description": "Extracted unchanged from the figure's inline data."
+    },
+    {
+      "file": "assets/arch/sim_head.png",
+      "source": "Embedded image in r2s2r_architecture.html (architecture figure)",
+      "sha256": "7f090ae0962b8e8dd05f1a6e1cb190d14b54d2ce2616d98335aa0fb84dbf6f4f",
+      "description": "Extracted unchanged from the figure's inline data."
+    },
+    {
+      "file": "assets/arch/complete.mp4",
+      "source": "assets/strip_insertion_probe.mp4",
+      "source_sha256": "b1de9941b2a5ac433e7ead4fd8c3d79ebd86fbb326cea654fd3b81adcffed49f",
+      "sha256": "57fb20f6a6737fe1e90407c775df44a5d23dcb1b6935e2c08a897e48bd98ed86",
+      "description": "Scaled to 436 px wide for the figure inset."
+    },
+    {
+      "file": "assets/arch/sim_head.mp4",
+      "source": "assets/corrected_ep0.mp4",
+      "source_sha256": "16027d014139f345c17a79c050a2d4048b7cb0614cacbb3548a88cd6c50bbc50",
+      "sha256": "7d297cd2dc14726dc721ef6780041d4ec18b000d8d9202ce87d372196cfea4fb",
+      "description": "Head-camera half (left 854 px), scaled to 520 px wide."
+    },
+    {
+      "file": "assets/arch/deploy.mp4",
+      "source": "assets/plug_real_gate.mp4",
+      "source_sha256": "7fa526585ea0bf9387b92d1f61118a7266592798aaa3108481893b849b06cdcb",
+      "sha256": "0861a2f8ec9ea7b70220fcf8012032854d81525191e2a4f4110725e8aa40c126",
+      "description": "From 16 s to end, cropped to the gripper and strip (540x388 at y=430), played at 2x."
     }
   ],
   "camera_pick_recovery": {
