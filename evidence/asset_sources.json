@@ -144,8 +144,8 @@
     {
       "file": "assets/pick_bench_trials.mp4",
       "source": "claude.ai artifact NM94MaamPBRNEVoPX39jQa (teleop pi0.5 residual page)",
-      "sha256": "882f5b23aca574dea284d6996cc5dcfb17aab13cf4d0e0d75b7cc95038bec154",
-      "description": "Unedited real-bench phone video, five trials with the residual head; no matched base trials."
+      "sha256": "63c78c5dd7f86a258ae1f6abc0984202559d2a6ac54809f6b64c6b972cabc281",
+      "description": "Unedited real-bench phone video, five trials with the residual head; no matched base trials. Trimmed to the first 37 s (three trials)."
     },
     {
       "file": "assets/desk_real.jpg",

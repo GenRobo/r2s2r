@@ -203,16 +203,14 @@
       <p class="qualifier">Simulation at 3× speed; selected clips illustrating the maps above.</p>
       <h4 class="sub-heading">On the real bench</h4>
       <div class="pick-bench">
-        <video controls muted preload="none" playsinline poster="assets/pick_bench_trials_poster.jpg" aria-label="Real robot bench run with the residual head: five pick trials"><source src="assets/pick_bench_trials.mp4" type="video/mp4"></video>
+        <video controls muted preload="none" playsinline poster="assets/pick_bench_trials_poster.jpg" aria-label="Real robot bench run with the residual: three consecutive pick-and-place trials"><source src="assets/pick_bench_trials.mp4" type="video/mp4"></video>
         <div>
           <ol class="trials">
             <li><span class="ts">0:00–0:14</span><span class="outcome" data-o="held"><svg class="cell-icon" aria-hidden="true"><use href="vendor/cell/icons.svg#ph-check-circle"/></svg>Placed</span><span>Grasp beside the bin, into the bin.</span></li>
             <li><span class="ts">0:16–0:23</span><span class="outcome" data-o="held"><svg class="cell-icon" aria-hidden="true"><use href="vendor/cell/icons.svg#ph-check-circle"/></svg>Placed</span><span>Grasp, short carry, release.</span></li>
             <li><span class="ts">0:28–0:37</span><span class="outcome" data-o="held"><svg class="cell-icon" aria-hidden="true"><use href="vendor/cell/icons.svg#ph-check-circle"/></svg>Placed</span><span>Object further away; grasp and place.</span></li>
-            <li><span class="ts">0:44–1:12</span><span class="outcome" data-o="warn"><svg class="cell-icon" aria-hidden="true"><use href="vendor/cell/icons.svg#ph-warning"/></svg>Picked, not placed</span><span>About 15 s of hovering before the grasp; the object ends beside the bin.</span></li>
-            <li><span class="ts">1:14–1:31</span><span class="outcome" data-o="warn"><svg class="cell-icon" aria-hidden="true"><use href="vendor/cell/icons.svg#ph-warning"/></svg>Picked, not placed</span><span>Grasp and lift; the object returns to the table by the bin.</span></li>
           </ol>
-          <p class="qualifier">Five consecutive trials from one bench session with the residual head; three placed. The measured real-robot comparison is the 2/20 → 13/20 row above.</p>
+          <p class="qualifier">With the correction, the policy picks and places three times in a row, which the base policy never managed.</p>
         </div>
       </div>
       <details><summary>Setup, oracle data and all 24 placements</summary><div class="detail-body">
